@@ -31,7 +31,7 @@ export default function EscolhaPage() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Card YouTube */}
             <div 
-              onClick={() => window.open('https://youtube.com', '_blank')}
+              onClick={() => window.open('https://www.youtube.com/@jotacostaolv', '_blank')}
               className="group cursor-pointer"
             >
               <div className="relative h-[500px] rounded-xl overflow-hidden border border-white/10 hover:border-white/30 transition-all duration-300">
@@ -61,7 +61,9 @@ export default function EscolhaPage() {
 
             {/* Card Mentoria */}
             <a 
-              href="/"
+              href="https://forms.gle/fZumm4uFPHX5hwVR9"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group cursor-pointer"
             >
               <div className="relative h-[500px] rounded-xl overflow-hidden border border-white/10 hover:border-white/30 transition-all duration-300">
